@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2 id="inicio">Índice</h2>
+    <ul>
+        <li><a href=#estrutura>Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href=#tags-gerais>Entendendo as tags gerais</a></li>
+        <li><a href=#tags-especificas>Entendendo as tags específicas</a></li>
+        <li><a href=#listas>Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href=#referencias>Links de referências</a></li>
+    </ul>
+
+
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2>
+    <small><a href=#inicio>Início</a></small>
+    <p>O <abbr title="HyperText Markup Language">HTML</abbr> é uma linguagem de <strong><u>marcação</u></strong> que será interpretada por navegadores <i>(browsers)</i>.</p>  
+    <p>A estrutura básica se dá por meio de tags, em sua maioria com aberturas e fechamentos<sup>*</sup>, que mostrarão o conteúdo de diferentes formas a depender do seu uso.</p>
+    <p>Existem duas principais tags que dão forma e corpo à estrutura do HTML: <strong>< html ></strong> e <strong>< body ></strong>. Todo o conteúdo que será mostrado ao usuário está no corpo do documento, ou seja, na tag <strong>< body ></strong> que, por sua vez, está contido na tag estrutual do documento, a <strong>< html ></strong>.</p>
+    <p>A estrutura básica fica então assim:<br>
+        <br>
+        < html ><br>
+            < body ><br>
+                <mark>Conteúdo do site</mark><br>
+            < /body ><br>
+        < /html ><br>
+    </p>
+    <p>*: as tags de fechamento são iniciadas por " / " e estão escritas ao final. Algumas tags não possuem fechamento, como por exemplo <strong><i>"< img >"</i></strong>. </p>
+
+    <h2 id="tags-gerais">Entendendo as tags gerais</h2>
+    <small><a href=#inicio>Início</a></small>
+    <p>Chamaremos de tags gerais as tags utilizadas para delimitar algumas partes do texto. São elas:<br>
+        <ul>
+            <li>< title >: muda o título que aparece na aba do usuário</li>
+            <li>< h1 > a < h6 >: coloca um título na página. O tamanho e destaque do título se dá de acordo com o número, sendo h1 o maior e o h6 o menor.</li>
+            <li>< p >: inicia um parágrafo</li>
+            <li>< ul >: utilizada para criar uma lista sem ordem específica. Neste caso, o marcado são figuras, como bolinhas.</li>
+            <li>< ol >: utilizada para criar uma lista com ordem específica. Neste caso, o marcador será numérico</ol></li>
+            <li>< li >: ao criarmos uma lista, seja ela com ou sem ordem, essa tag será necessária para listar os elementos.</li>
+            <li>< a >: colocar um hyperlink na página.</li>
+        </ul></p>
+  
+    <h2 id="tags-especificas">Entendendo as tags específicas</h2>
+    <small><a href=#inicio>Início</a></small>
+    <p>Chamaremos de tags específicas as tags utilizadas para caracterizar o texto. São elas:<br>
+        <ul>
+            <li>< strong >: coloca as palavras ou texto em <strong>negrito</strong>.</li>
+            <li>< mark >: <mark>destaca</mark> alguma parte do texto.</li>
+            <li>< i >: colocar as palavras ou texto em <i>itálico</i>.</li>
+            <li>< u >: <u>sublinhar</u> as palavras ou texto.</li>
+            <li>< sub >: escreve algo abaixo da linha, como o numeral 2 em: A<sub>2</sub></li>
+            <li>< sup >: escreve algo acima da linha, como o asterisco neste exemplo: exemplo<sup>*</sup></li>
+            <li>< blockquote >: utilizado para fazer alguma citação no texto </li>
+        </ul></p>
+    
+    <h2 id="listas">Entendendo as listas ordenadas e não ordenadas</h2>
+    <small><a href=#inicio>Início</a></small>
+    <p> Existem dois tipos de listas: as ordenadas e as Desordenadas. <br>
+    As listas ordenadas são aquelas em que o marcador é numérico e, como o próprio nome diz, representa uma ordem:
+        <ol>
+            <li>Primeiro lugar</li>
+            <li>Segundo lugar</li>
+            <li>Terceiro lugar</li>
+        </ol></p>
+    <p>As listas não ordenadas possuem os marcadores em figuras, como bolinhas ou quadradinhos e não representam necessariamente uma ordem:
+        <ul>
+            <li>Laranjas</li>
+            <li>Bananas</li>
+            <li>Maçãs</li>
+        </ul>
+    </p>
+
+    <h2 id="referencias">Links de referências</h2>
+    <small><a href=#inicio>Início</a></small>
+    <p>Essas foram as referências utilizadas:
+    <ul>
+        <li><a href="http://dio.me" target="_blank">Dio.me</a></li>
+        <li><a href="http://w3schools.com" target="_blank">W3Schools</a></li>
+    </ul></p>
+
+</body>
+</html>
