@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário de Atendimento</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="template-paginicial.html" target="_self">Página Inicial</a></li>
+                <li><a href="template-sobrenos.html" target="_self">Sobre Nós</a></li>
+                <li><a href="template-horario.html" target="_self">Horário de Atendimento</a></li>
+                <li><a href="template-contato.html" target="_self">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="data:image/png;base64,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" alt="Horario de atendimento" height="auto"/>
+                <!-- Aqui vai o seu header -->
+            </div>
+    
+            <div class="content">
+                <h3>Nossos serviços</h3>
+                    <p>Atendemos o público de forma individualizada, com agendamento prévio de horário e dia (conforme nossa tabela de atendimento).<br><br>
+                    Não trabalhamos com planos de sáude.</p>
+                <h3>Horários de Atendimento</h3>
+                    <table border="1" width="750" align="center">
+                        <tr>
+                            <th>Especialidade</th>
+                            <th>Segunda, Quarta e Sexta</th>
+                            <th>Terça e Quinta</th>
+                            <th>Preço</th>
+                        </tr>
+                        <tr>
+                            <td>Psiquiatria</td>
+                            <td>08:00 - 12:00</td>
+                            <td>13:00 - 18:00</td>
+                            <td>R$ 200,00 por consulta</td>
+                        </tr>
+                        <tr>
+                            <td>Psicologia</td>
+                            <td>13:00 - 18:00</td>
+                            <td>08:00 - 12:00</td>
+                            <td>R$ 170,00 por consulta</td>
+                        </tr>
+                        <tr>
+                            <td>Terapia Ocupacional</td>
+                            <td>08:00 - 12:00</td>
+                            <td>13:00 - 18:00</td>
+                            <td>R$ 150,00 por consulta</td>
+                        </tr>
+                        <tr>
+                            <td>Fonoaudiologia</td>
+                            <td>13:00 - 18:00</td>
+                            <td>08:00 - 12:00</td>
+                            <td>R$ 170,00 por consulta</td>
+                        </tr>
+                    </table>
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <address>Endereço: Rua Conceição da Barra, 23 - Jardim Carapina - Serra - ES<br>
+                   CEP:29.180-047</address>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
